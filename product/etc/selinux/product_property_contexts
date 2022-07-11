@@ -1,0 +1,82 @@
+#line 1 "device/qcom/sepolicy/generic/product/private/property_contexts"
+# Copyright (c) 2019-2020 The Linux Foundation. All rights reserved.
+#
+# Redistribution and use in source and binary forms, with or without
+# modification, are permitted provided that the following conditions are
+# met:
+#     * Redistributions of source code must retain the above copyright
+#       notice, this list of conditions and the following disclaimer.
+#     * Redistributions in binary form must reproduce the above
+#       copyright notice, this list of conditions and the following
+#       disclaimer in the documentation and/or other materials provided
+#       with the distribution.
+#     * Neither the name of The Linux Foundation nor the names of its
+#       contributors may be used to endorse or promote products derived
+#       from this software without specific prior written permission.
+#
+# THIS SOFTWARE IS PROVIDED "AS IS" AND ANY EXPRESS OR IMPLIED
+# WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+# MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT
+# ARE DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS
+# BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+# CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+# SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR
+# BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+# WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
+# OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
+# IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+vendor.display.disable_rounded_corner       u:object_r:vendor_display_notch_prop:s0
+#line 1 "device/oneplus/kebab/sepolicy/private/property_contexts"
+# Camera
+ro.camera.                                              u:object_r:vendor_camera_prop:s0
+vendor.camera.                                          u:object_r:vendor_camera_prop:s0
+persist.camera.                                         u:object_r:vendor_camera_prop:s0
+persist.camera.antibanding.debug                        u:object_r:ctl_default_prop:s0
+persist.camera.ashdr.debug                              u:object_r:ctl_default_prop:s0
+persist.camera.asllhdr.debug                            u:object_r:ctl_default_prop:s0
+persist.camera.bokeh.debugcap                           u:object_r:ctl_default_prop:s0
+persist.camera.cfr.disable                              u:object_r:ctl_default_prop:s0
+persist.camera.mfsrfrt.debug                            u:object_r:ctl_default_prop:s0
+persist.camera.opxfilter.dumpframe                      u:object_r:ctl_default_prop:s0
+persist.camera.singleblur.debug                         u:object_r:ctl_default_prop:s0
+persist.camera.superportrait.debug                      u:object_r:ctl_default_prop:s0
+persist.camera.supersensor.debug                        u:object_r:ctl_default_prop:s0
+persist.vendor.aps.debug.framenum                       u:object_r:ctl_default_prop:s0
+persist.vendor.apsSN.algo.enable                        u:object_r:ctl_default_prop:s0
+persist.vendor.arcsoft.sn.dumprawinfo                   u:object_r:ctl_default_prop:s0
+persist.vendor.camera.debugdata.enable3A                u:object_r:ctl_default_prop:s0
+persist.vendor.camera.debugdata.enableTuningMetadata    u:object_r:ctl_default_prop:s0
+persist.vendor.camera.dump.formatmask                   u:object_r:ctl_default_prop:s0
+persist.vendor.camera.dumpDebugDataEveryProcessResult   u:object_r:ctl_default_prop:s0
+persist.vendor.camera.dumpSensorEEPROMData              u:object_r:ctl_default_prop:s0
+persist.vendor.camera.exif3a.opxcompress                u:object_r:ctl_default_prop:s0
+persist.vendor.camera.logEntryExitMask                  u:object_r:ctl_default_prop:s0
+persist.vendor.camera.logInfoMask                       u:object_r:ctl_default_prop:s0
+persist.vendor.camera.logVerboseMask                    u:object_r:ctl_default_prop:s0
+persist.vendor.camera.logWarningMask                    u:object_r:ctl_default_prop:s0
+persist.vendor.camera.overrideLogLevels                 u:object_r:ctl_default_prop:s0
+persist.vendor.camera.pdaf_dump                         u:object_r:ctl_default_prop:s0
+persist.vendor.camera.pdaf_logging                      u:object_r:ctl_default_prop:s0
+persist.vendor.camera.reprocessDump                     u:object_r:ctl_default_prop:s0
+persist.vendor.camera.swmf.debug                        u:object_r:ctl_default_prop:s0
+persist.vendor.camera.systemLogEnable                   u:object_r:ctl_default_prop:s0
+persist.vendor.camera.traceGroupsEnable                 u:object_r:ctl_default_prop:s0
+persist.vendor.facebeauty.dump                          u:object_r:ctl_default_prop:s0
+persist.vendor.oppo.rawhdr.dump                         u:object_r:ctl_default_prop:s0
+persist.vendor.supernight.dump                          u:object_r:ctl_default_prop:s0
+vendor.arcsoft.                                         u:object_r:ctl_default_prop:s0
+vendor.boot.project_name                                u:object_r:ctl_default_prop:s0
+vendor.debug.camera.af.fullsweep                        u:object_r:ctl_default_prop:s0
+vendor.oneplus.gallery.                                 u:object_r:ctl_default_prop:s0
+vendor.oppo.ainight.drawrect                            u:object_r:ctl_default_prop:s0
+vendor.oppo.denoise.debug                               u:object_r:ctl_default_prop:s0
+vendor.oppo.enable.dump.flag                            u:object_r:ctl_default_prop:s0
+vendor.oppo.mirror.dump                                 u:object_r:ctl_default_prop:s0
+vendor.oppo.mult.image                                  u:object_r:ctl_default_prop:s0
+vendor.oppo.num.denoise                                 u:object_r:ctl_default_prop:s0
+vendor.oppo.rawhdr.algo                                 u:object_r:ctl_default_prop:s0
+vendor.oppo.rotate.dump                                 u:object_r:ctl_default_prop:s0
+vendor.oppo.scale.enable                                u:object_r:ctl_default_prop:s0
+
+# Sensors
+vendor.sensors.als_correction.                          u:object_r:vendor_sensors_als_prop:s0
